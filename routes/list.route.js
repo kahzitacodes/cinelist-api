@@ -18,7 +18,7 @@ listRouter.post('/', async (req, res) => {
 listRouter.get('/', async (req, res) => {
     try {
 
-        const allLists = await ListModel.find({});
+        const allLists = await ListModel.find({}).sort({ createdAt: -1 });
         return res.status(201).json(allLists);
 
     } catch (error) {
