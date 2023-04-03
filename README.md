@@ -12,7 +12,5 @@ The app is responsive and adjust for different screens.
 
 [Go to Cinelist](https://thecinelist.netlify.app/)
 
-[Server](https://github.com/kahzitacodes/cinelist-api)
-
 [Client](https://github.com/kahzitacodes/cinelist)
 
